@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.loginpage {
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #f1f1f1;
+    max-width: 500px;
+    margin: 0 auto 100px;
+    padding: 45px;
+}
+
+.logindetails {
+    background: white;
+    border-radius: 5px;
+    min-height: 300px
+}
+
+.form input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    width: auto;
+}
+
+.form div {
+    padding: 10px 10px 0px 10px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+   }
